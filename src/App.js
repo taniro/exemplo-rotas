@@ -23,18 +23,3 @@ export default function App() {
 		</Router>
 	);
 }
-
-/*
-		<Router>
-			<div>
-				<Header />
-				<Switch>
-					<Route path="/" exact component={Home} />
-					<Route path="/produtos" exact component={Produtos} />
-					<Route path="/produtos/:id" component={DetalheProduto} />
-					<Route path="/contato" component={Contato} />
-				</Switch>
-				<Footer />
-			</div>
-		</Router>
-*/
